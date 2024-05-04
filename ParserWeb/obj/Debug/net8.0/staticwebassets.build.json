@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "XKAv3raVumpovt70q/+vg2IU7Vh7arv2MNA/bkaBIeY=",
+  "Source": "ParserWeb",
+  "BasePath": "_content/ParserWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ParserWeb\\wwwroot",
+      "Source": "ParserWeb",
+      "ContentRoot": "C:\\Users\\nurla\\RiderProjects\\ParserWeb\\ParserWeb\\wwwroot\\",
+      "BasePath": "_content/ParserWeb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
