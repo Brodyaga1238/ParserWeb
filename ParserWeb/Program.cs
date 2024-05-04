@@ -37,7 +37,8 @@ namespace ParserWeb
                 var urls = await LoadUrlsFromSitemap(sitemapUrl, site);
                 var processedurls = await GetProcessedUrls();
                 var urlsToProcess = urls.Except(processedurls).ToList();
-                await ProcessUrlsAsync(urlsToProcess, site);
+                await Db.ClearDatabases();
+                await ProcessUrls(urlsToProcess, site);
                 return Ok("Parsing completed successfully.");
             }
             catch (Exception ex)
@@ -54,8 +55,13 @@ namespace ParserWeb
         static async Task<List<string>> GetProcessedUrls()
         {
             using (var db = new ApplicationContext())
-            {
+            {   
+                if (db.ProcessedUrls.Select(u => u.url).ToListAsync<string>().ToString()=="")
+                {
+                    return new List<string>();
+                }
                 return await db.ProcessedUrls.Select(u => u.url).ToListAsync<string>();
+                
             }
         }
         [HttpGet("stopParsing")]
