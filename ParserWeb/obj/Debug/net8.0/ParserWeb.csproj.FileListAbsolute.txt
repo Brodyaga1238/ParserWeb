@@ -75,3 +75,4 @@ C:\Users\nurla\RiderProjects\ParserWeb\ParserWeb\bin\Debug\net8.0\runtimes\win-x
 C:\Users\nurla\RiderProjects\ParserWeb\ParserWeb\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\nurla\RiderProjects\ParserWeb\ParserWeb\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\nurla\RiderProjects\ParserWeb\ParserWeb\bin\Debug\net8.0\ParserWeb.staticwebassets.runtime.json
+C:\Users\nurla\RiderProjects\ParserWeb\ParserWeb\obj\Debug\net8.0\ParserWeb.sourcelink.json
