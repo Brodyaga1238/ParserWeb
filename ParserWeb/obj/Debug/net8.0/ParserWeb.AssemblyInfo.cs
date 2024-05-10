@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParserWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bab3d66843542074d2d911b529cc1d74083f7bdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParserWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParserWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

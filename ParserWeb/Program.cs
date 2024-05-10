@@ -38,7 +38,7 @@ namespace ParserWeb
                 var processedurls = await GetProcessedUrls();
                 var urlsToProcess = urls.Except(processedurls).ToList();
                 await Db.ClearDatabases();
-                await ProcessUrls(urlsToProcess, site);
+                await ProcessUrlsAsync(urlsToProcess, site);
                 return Ok("Parsing completed successfully.");
             }
             catch (Exception ex)
